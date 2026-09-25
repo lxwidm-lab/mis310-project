@@ -6,8 +6,8 @@ div {
 .card {
     margin: 20px;
     padding: 16px;
-    border: 1px solid #333333;
-    max-width: 1000px;
+    border: 5px solid #490404;
+    max-width: 1500px;
     display: flex;
     flex-direction: column;
     gap: 20px;
