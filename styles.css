@@ -18,5 +18,6 @@ div {
 @media (max-width: 700px) {
     .navigation {
         flex-direction: column;
+        background: #593a3a; color: white; 
     }
 }
