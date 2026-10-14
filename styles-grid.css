@@ -1,6 +1,6 @@
-/* styles.css */
+/* styles-grid.css */
 .grid-container {
-  /* 1. Activate CSS Grid */
+  /* 1. Activate CSS Grid  */
   display: grid;
   
   /* 2. Create columns that automatically wrap and scale */
