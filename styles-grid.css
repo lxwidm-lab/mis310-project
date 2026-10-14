@@ -4,7 +4,7 @@
   display: grid;
   
   /* 2. Create columns that automatically wrap and scale */
-  grid-template-columns: repeat(2);
+  grid-template-columns: repeat(2, 1fr);
   /* 3. Set the spacing (gutters) between rows and columns */
   gap: 5px;
   /* 4. Set a base height for automatically generated rows */
