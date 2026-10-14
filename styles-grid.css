@@ -4,13 +4,11 @@
   display: grid;
   
   /* 2. Create columns that automatically wrap and scale */
-  grid-template-columns: repeat(2, 1fr);
-  
+  grid-template-columns: repeat(2);
   /* 3. Set the spacing (gutters) between rows and columns */
   gap: 10px;
-  
   /* 4. Set a base height for automatically generated rows */
-  grid-auto-rows: minmax(150px, auto);
+  grid-auto-rows: minmax(25px, auto);
 }
 
 /* Basic styling for the cards just to make them visible */
@@ -20,8 +18,8 @@
   padding: 10px;
   border-radius: 2px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: 1.25rem;
   font-weight: bold;
 }
