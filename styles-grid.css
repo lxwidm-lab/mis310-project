@@ -4,7 +4,7 @@
   display: grid;
   
   /* 2. Create columns that automatically wrap and scale */
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   
   /* 3. Set the spacing (gutters) between rows and columns */
   gap: 20px;
@@ -15,8 +15,8 @@
 
 /* Basic styling for the cards just to make them visible */
 .grid-item {
-  background-color: #3b82f6;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 20px;
   border-radius: 8px;
   display: flex;
