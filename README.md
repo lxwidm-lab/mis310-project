@@ -1,1 +1,25 @@
 # mis310-project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Read Me</title>
+    <div class="Readme" style="margin-bottom: 5px;">
+    <!-- Your contact details go here -->
+    <p style="font-size: 40px; font-weight: bold;">Read Me</p>
+    </div>
+</head>
+body>
+      
+<h1 id="text-box">How to Navigate Website</h1>
+    
+    <button id="details-button" type="button">Display Information</button>
+
+<p id="details">
+    Information
+</p>
+
+</body>
+</html>
