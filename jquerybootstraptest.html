@@ -11,6 +11,12 @@
 <body>
     <h2 id="message">Message</h2>
     <div><button class="btn btn-primary">Bootstrap is working</button></div>
+    <script>
+    $(document).ready(function() {
+      // Runs only after the HTML page and jQuery are completely loaded
+      console.log("jQuery is loaded and ready!");
      $("#message").text("jQuery is working");
+     });
+    </script>     
 </body>
 </html>
